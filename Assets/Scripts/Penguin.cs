@@ -1,0 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Penguin : MonoBehaviour
+{
+    [SerializeField] private PlayerInteract3 bird;
+    [SerializeField] private GameObject tb;
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        tb.SetActive(true);
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        tb.SetActive(false);
+    }
+    public void Talk1()
+    {
+        bird.pen1 = true;
+        bird.time = 0;
+    }
+}

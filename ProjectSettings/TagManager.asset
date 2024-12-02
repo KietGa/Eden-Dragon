@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Owl
+  - Boss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - Interact
+  - Wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: HTrap
+    uniqueID: 1045230799
+    locked: 0
+  - name: Background
+    uniqueID: 1442080689
+    locked: 0
+  - name: Terrain
+    uniqueID: 72062021
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: NPC
+    uniqueID: 771536725
+    locked: 0
+  - name: Player
+    uniqueID: 3011708441
+    locked: 0
+  - name: Trap
+    uniqueID: 1740877225
+    locked: 0
